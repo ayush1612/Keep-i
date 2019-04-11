@@ -1,0 +1,137 @@
+#logo {
+    width: 20%;
+    padding-left: 12%;
+}
+.navb{
+    padding-left: 32%;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+
+}
+#navba{
+    background-color: #3bb4c1 !important;
+}
+.introd{
+    margin: auto;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 4%;
+    background-color: #d7f7f5;
+}
+h2{
+    padding-left: 30%;
+    padding-right: 30%;
+    line-height: 2;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.foot{
+    padding-top: 2%;
+    padding-bottom: 1%;
+    background-color: #e9e4e6;
+    text-align: center;
+}
+.icon{
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 10%;
+}
+.login{
+    text-align: center;
+    margin: auto;
+    padding: 15% 15% 12%
+}
+.boxb{
+    margin-bottom: 5%;
+    width: 500px;
+    height: 70px;
+    font-size: 1rem;
+}
+.log{
+    width: 200px;
+    height: 70px;
+    background-color: #3bb4c1;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.candi{
+    margin: auto;
+    text-align: center;
+    padding: 8% 8% 8%;
+    background-color: #113f67;
+}
+.c1{
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+    width: 70%;
+    margin-left: 22%;
+}
+.c2{
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+    width: 70%;
+    text-align: center;
+}
+h3{
+    width: 40%;
+    margin: auto;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    padding-top: 4%;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: rgb(204, 198, 198);
+}
+.i1{
+    float: left;
+    width: 20%;
+}
+.i2{
+    float: right;
+    width: 20%;
+}
+.cdata{
+    text-align: center;
+    margin: auto;
+    padding-top: 3%;
+    padding-bottom: 6%;
+    background-color: #38598b;
+}
+#about{
+    width: 40%;
+    margin: auto;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.3rem;
+    line-height: 2;
+    color: #f5c7f7;
+}
+#dp{
+    padding: 3% 3% 3%;
+}
+.info{
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    width: 40%;
+    margin: auto;
+    padding-bottom: 3%;
+    color:#dee0d9;
+}
+.i1:hover{
+    opacity: 0.5;
+}
+.tabled{
+    padding: 4% 4% 4%;
+}
+td{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+th{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.4rem; 
+}
+.table{
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
