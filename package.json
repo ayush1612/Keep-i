@@ -1,0 +1,24 @@
+{
+  "name": "keep-i",
+  "version": "1.0.0",
+  "description": "Governance Vigilance",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anantrj421/Keep-i.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anantrj421/Keep-i/issues"
+  },
+  "homepage": "https://github.com/anantrj421/Keep-i#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.1"
+  }
+}
