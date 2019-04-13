@@ -51,7 +51,11 @@ newIssues.create(req.body.issue,function(err,newissue){
 })
 })
 
-PORT=8000;
-app.listen(PORT,process.env.IP,function(){
-    console.log("Ready to go");
+// PORT=8000;
+// app.listen(PORT,process.env.IP,function(){
+//     console.log("Ready to go");
+// })
+
+app.listen(process.env.PORT,process.env.IP,function(){
+    console.log("Ready")
 })
