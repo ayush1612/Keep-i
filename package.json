@@ -18,8 +18,10 @@
   "homepage": "https://github.com/anantrj421/Keep-i#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "bootstrap": "^4.3.1",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
-    "mongoose": "^5.5.1"
+    "mongoose": "^5.5.1",
+    "require": "^2.4.20"
   }
 }
