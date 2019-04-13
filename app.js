@@ -6,7 +6,7 @@ var express=require('express'),
 var newIssues= require("./models/newIssues")
 var issues= require("./models/issues")
 
-mongoose.connect("mongodb://localhost/keep_i");
+// mongoose.connect("mongodb://localhost/keep_i");
 
 app.set("view engine","ejs");
 
