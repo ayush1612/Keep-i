@@ -10,7 +10,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <link rel="icon" href="images/eye.png">
         <!-- css -->
-        <link rel="stylesheet" href="../public/stylesheets/style.css">
+        <link rel="stylesheet" href="/stylesheets/style.css">
         <!-- fonts -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:500" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
@@ -43,7 +43,7 @@
       </section>
         <section id="data">
             <div class="cdata">
-                <img id="dp" src="../public/images/c1.png" alt="c1">
+                <img id="dp" src="/images/c1.png" alt="c1">
                 <p class="info">Hal Jordon is representing Public Welfare Party for Dallas Region.</p>
                 <div id="about">
                 <h1 style="padding-right:50%; margin-bottom:3%;">About :</h1>
@@ -77,7 +77,9 @@
                         <td><button type="button" class="btn btn-lg btn-success">Add</button><p>+24 people</p></td>
                       </tr>
                     </tbody>
+                    <button class="btn btn-lg btn-primary" style="padding:2px" onclick="window.location.href='/login/choose/postelec/new'">Add Issue</button>
                   </table>
+
                   <table class="table table-striped">
                     <thead>
                       <tr>
@@ -115,11 +117,7 @@
                     </tbody>
                   </table>
             </div>
-         <form action="/login/choose/postelec" method="POST">
-        
-            <input type="text">
-            <button type="btn btn-primary">Add Issue</button>
-        </form>
+       
     </section>
         <section id="contact">
                 <div class="foot">

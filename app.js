@@ -3,6 +3,9 @@ var express=require('express'),
     mongoose    =require('mongoose'),
     app=express();
 
+var newIssues= require("./models/newIssues")
+var issues= require("./models/issues")
+
 mongoose.connect("mongodb://localhost/keep_i");
 
 app.set("view engine","ejs");
@@ -29,9 +32,24 @@ app.get("/login/choose/postelec",function(req,res){
     res.render("postelec");
 })
 
-// app.post("/login/choose/postelec",function(req,res){
 
-// })
+app.get("/login/choose/postelec/new",function(req,res){
+    res.render("newIssue")
+})
+
+app.post("/login/choose/postelec/new",function(req,res){
+newIssues.create(req.body.issue,function(err,newissue){
+    if(err){
+        console.log(err)
+    }
+    else{
+        newissue.save();
+        issues.push(newissue)
+        issues.save()
+        res.redirect("/login/choose/postelec")
+    }
+})
+})
 
 PORT=8000;
 app.listen(PORT,process.env.IP,function(){
