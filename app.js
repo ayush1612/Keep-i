@@ -6,7 +6,7 @@ var express=require('express'),
 var newIssues= require("./models/newIssues")
 var issues= require("./models/issues")
 
-// mongoose.connect("mongodb://localhost/keep_i");
+mongoose.connect("mongodb://localhost/keep_i");
 
 app.set("view engine","ejs");
 
@@ -51,11 +51,11 @@ newIssues.create(req.body.issue,function(err,newissue){
 })
 })
 
-// PORT=8000;
-// app.listen(PORT,process.env.IP,function(){
-//     console.log("Ready to go");
-// })
-
-app.listen(process.env.PORT,process.env.IP,function(){
-    console.log("Ready")
+PORT=8000;
+app.listen(PORT,process.env.IP,function(){
+    console.log("Ready to go");
 })
+
+// app.listen(process.env.PORT,process.env.IP,function(){
+//     console.log("Ready")
+// })
